@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .top1{
+            background-color: rgb(24, 34, 34);
+            border: 2px solid black;
+            display: grid;
+            padding: 20px;
+            height: 100vh;
+        }
+        .cd1{
+            grid-column-start:1;
+            grid-column-end: 2;
+            height: 90px;
+             width: 300px; 
+            background-color: rgb(196, 197, 134);
+            text-align: center;
+            color: white;
+        }
+        .cd2{
+            grid-column-start:1;
+            grid-column-end: 4;
+            grid-row-start:4;
+            grid-row-end: 7;
+            height: 100px;
+            /* width: 300px; */
+            background-color: rgb(43, 113, 128);
+            text-align: center;
+            color: white;
+        }
+        .cd3{
+            grid-column-start:2;
+            grid-column-end: 7;
+            grid-row-start:7 ;
+            grid-row-end: 8;
+            height: 90px;
+            width: 300px;
+            background-color: rgb(128, 43, 127);
+            text-align: center;
+            color: white;
+        }
+        .pic1{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top:20px;
+            left: 300px;
+            
+            
+        }
+        .pic2{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top:150px;
+            left: 150px;
+
+        }
+        .pic3{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top:150px;
+            left: 450px;
+
+        }
+        .pic4{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top:300px;
+           
+
+
+        }
+        .pic5{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top:300px;
+            left: 600px;
+
+
+        }
+        .pic6{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            bottom:150px;
+            left: 450px;
+
+        }
+        .pic7{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            bottom:150px;
+            left: 150px;
+
+
+
+        }
+        .pic8{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            bottom:20px;
+            left: 300px;
+        }
+        
+@media screen and (min-width:300px) and (max-width:576px){
+   .xtra-small {
+       
+       background-color: rgb(107, 107, 215); 
+
+   }
+}
+
+@media screen and (min-width:577px) and (max-width:768px){
+   .small {
+       background-color: rgb(173, 212, 31);
+   }
+}
+
+@media screen and (min-width:769px) and (max-width:992px){
+   .medium {
+       background-color: rgb(32, 154, 214);
+   }
+}
+
+@media screen and (min-width:993px) and (max-width:1200px){
+   .large {
+       background-color: rgb(146, 235, 146);
+   }
+}
+
+@media screen and (min-width:1201px){
+   .xtra-large {
+       background-color: rgb(147, 92, 92);
+   }
+}
+@media screen and (min-width:1301px){
+   .xxtra-large {
+       background-color: rgb(189, 17, 63);
+   }
+}
+   </style>
+</head>
+<body>
+    <div>
+        <div class="top1 xtra-small  small medium large xtra-large xxtra-large">
+            <div class="bottom cd1">one</div>
+            <img src="../assets/images/bird.jpg" class="pic1"/>
+            <div class="bottom cd2">two</div>
+            <img src="../assets/images/peacock feather.jpeg" class="pic2"/>
+            <img src="../assets/images/wow.jpeg" class="pic3"/>
+            <img src="../assets/images/pexels-photo-668465.jpg" class="pic4"/>
+            <div class="bottom cd3">three</div>
+            <img src="../assets/images/building.jpeg" class="pic5"/>
+            <img src="../assets/images/hotel.jpeg" class="pic6"/>
+            
+            <img src="../assets/images/office.jpeg" class="pic7"/>
+            <img src="../assets/images/shop.jpeg" class="pic8"/>
+            
+        </div>
+
+    </div>
+</body>
+</html>
